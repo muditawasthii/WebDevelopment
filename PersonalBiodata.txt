@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1 align="center">Mudit's Personal Biodata</h1>
+        <fieldset>
+            <legend>My Information</legend>
+            <form>
+                <label for="name">Name: </label>
+                <input autofocus type="text" placeholder="Enter name" id="name" required>
+                <br>
+                <br>
+                <label for="fname">Father's Name: </label>
+                <input autofocus type="text" placeholder="Enter Fathers name" id="fname" required>
+                <br>
+                <br>
+                <label for="mname">Mother's Name: </label>
+                <input autofocus type="text" placeholder="Enter Mothers name" id="mname" required>
+                <br>
+                <br>
+                <label for="email">Email: </label>
+                <input type="email" placeholder="Enter email" id="email" required>
+                <br>
+                <br>
+                <label for="Age" id="ag">Age: </label>
+                <input type="number" placeholder="Enter age" maxlength="120"> 
+                <br>
+                <br>
+                <label for="DOB" id="do">DOB: </label>
+                <input type="date"> 
+                <br>
+                <br>
+                <label for="department">Department:</label>
+                <select id="dropdown" name="Department">
+                    <option value="it">IT</option>
+                    <option value="cse">CSE</option>
+                    <option value="ece">ECE</option>
+                    <option value="mech">MECH</option>
+                    <option value="civil">CIVIL</option>
+                </select>
+                <br>
+                <br>
+                <label for="Gender" id="gen">Gender: </label>
+              <label><input type="radio" name="Gender">Male</label>
+              <label><input type="radio" name="Gender">Female</label>
+              <label><input type="radio" name="Gender">Others</label>
+              <br>
+              <br>
+              <label for="Address">Address: </label>
+              <textarea rows="5" cols="10"></textarea>
+              <br>
+              <br>
+              <label for="language">Language Known:</label>
+              <ul style="list-style:none">
+            <li><label><input type="checkbox">English</label></li>
+              <li><label><input type="checkbox">Tamil</label></li>
+              <li><label><input type="checkbox">Hindi</label></li>
+              <li><label><input type="checkbox">Telugu</label></li>
+              <li><label><input type="checkbox">Kannada</label></li>
+              <li><label><input type="checkbox">Punjabi</label></li>
+              <li><label><input type="checkbox">Pahari</label></li>
+              <li><label><input type="checkbox">Others</label></li>
+              </ul>
+              <br>
+              <br>
+              <label for="marksheet">Marksheet:</label>
+              <input type="file" id="marksheet">
+              <br>
+              <br>
+              <button id="submit">Submit</button>
+              <button id="reset">Reset</button>
+            </form>
+        </fieldset>
+    </body>
+</html>
