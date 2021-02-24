@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+<body>
+
+    <h1 align="center"> Mudit's Time Table</h1>
+
+    <table border="10" cellspacing="15" cellpadding="10">
+
+        <thead>
+
+            <tr>
+                <th>Days/Periods</th>
+                <th>1</th>
+                <th> </th>
+                <th>2</th>
+                <th>3</th>
+                <th>4</th>
+            </tr>
+
+
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Monday</td>
+                <td rowspan="2">Science</td>
+                <td rowspan="5">Break</td>
+                <td>Maths</td>
+                <td>Physics</td>
+                <td>Biology</td>
+
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>Maths</td>
+                <td>Hindi</td>
+                <td>Moral Science</td>
+
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>Science</td>
+                <td>Maths</td>
+                <td>History</td>
+                <td>Games</td>
+
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td>Maths</td>
+                <td colspan="3" align="center">Games</td>
+            </tr>
+
+
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th colspan="7">This is Class XI Time Table</th>
+            </tr>
+        </tfoot>
+
+    </table>
+
+</body>
+</html>
